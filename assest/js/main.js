@@ -36,14 +36,17 @@ jQuery(document).on('ready', function ($) {
     $(window).scroll(function () {
         var $totalHeight = $(window).scrollTop();
         var $scrollToTop = $(".scrolltotop");
-        if ($totalHeight > 300) {
-            $(".scrolltotop").fadeIn();
+        if ($totalHeight > 1) {
             $('#logo-normal').hide();
             $('#logo-inverted').show();
         } else {
-            $(".scrolltotop").fadeOut();
             $('#logo-normal').show();
             $('#logo-inverted').hide();
+        }
+        if ($totalHeight > 300) {
+            $(".scrolltotop").fadeIn();
+        } else {
+            $(".scrolltotop").fadeOut();
         }
 
         if ($totalHeight + $(window).height() === $(document).height()) {
