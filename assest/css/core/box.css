@@ -294,7 +294,7 @@
 .box-hover-6::before,
 .box-hover-7::before,
 .box-hover-8::before {
-    background: #8256ff none repeat scroll 0 0;
+    background: #592FC5 none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 3px;
@@ -460,7 +460,7 @@ BOX HOVER 8
 }
 
 .box-hover-9::before {
-    background: #8256ff none repeat scroll 0 0;
+    background: #592FC5 none repeat scroll 0 0;
     border-radius: 50%;
     content: "";
     height: 50px;
@@ -492,7 +492,7 @@ BOX HOVER 8
 .box-hover-15::before,
 .box-hover-16::before,
 .box-hover-17::before {
-    background: #8256ff none repeat scroll 0 0;
+    background: #592FC5 none repeat scroll 0 0;
     border-radius: 50%;
     content: "";
     height: 50px;
@@ -617,8 +617,8 @@ BOX HOVER 8
 
 .box-hover-18::before,
 .box-hover-20::before {
-    border-top: 15px solid #8256ff;
-    border-left: 15px solid #8256ff;
+    border-top: 15px solid #592FC5;
+    border-left: 15px solid #592FC5;
     border-bottom: 15px solid transparent;
     border-right: 15px solid transparent;
     left: 0;
@@ -631,8 +631,8 @@ BOX HOVER 8
 .box-hover-20::after {
     border-top: 15px solid transparent;
     border-left: 15px solid transparent;
-    border-bottom: 15px solid #8256ff;
-    border-right: 15px solid #8256ff;
+    border-bottom: 15px solid #592FC5;
+    border-right: 15px solid #592FC5;
     bottom: 0;
     right: 0;
 }
@@ -640,15 +640,15 @@ BOX HOVER 8
 .box-hover-21::before {
     border-bottom: 15px solid transparent;
     border-left: 15px solid transparent;
-    border-top: 15px solid #8256ff;
-    border-right: 15px solid #8256ff;
+    border-top: 15px solid #592FC5;
+    border-right: 15px solid #592FC5;
     right: 0;
     top: 0;
 }
 
 .box-hover-21::after {
-    border-left: 15px solid #8256ff;
-    border-bottom: 15px solid #8256ff;
+    border-left: 15px solid #592FC5;
+    border-bottom: 15px solid #592FC5;
     border-top: 15px solid transparent;
     border-right: 15px solid transparent;
     bottom: 0;
@@ -675,7 +675,7 @@ BOX HOVER 8
 ---------------------------- */
 
 .box-hover-22::before {
-    background: #8256ff none repeat scroll 0 0;
+    background: #592FC5 none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
