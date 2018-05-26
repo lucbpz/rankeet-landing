@@ -252,8 +252,8 @@
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <div class="about-mockup right wow fadeIn xs-mt50">
-                        <!-- <img src="assest/img/about/about-3.png" alt=""> -->
-                        <canvas id="demo"></canvas>
+                        <img src="assest/img/castolo-card.png" alt="">
+                        <!-- <canvas id="demo"></canvas> -->
                     </div>
                 </div>
             </div>
@@ -1105,13 +1105,13 @@
             return document.getElementById(id).value;
         }
         function fresh() {
-            var str = 0.9;
-            var agi = 0.8;
-            var mag = 0.4;
-            var hp = 0.2;
-            var mp = 0.6;
-            var def = 0.7;
-            hexagon.init('demo', 180, ['ATT', 'TEC', 'REL', 'DEF', 'STA', 'SPE']);
+            var str = 0.88;
+            var agi = 1;
+            var mag = 1;
+            var hp = 0.65;
+            var mp = 0.71;
+            var def = 0.85;
+            hexagon.init('demo', 180, ['ATT', 'TEC', 'TEA', 'DEF', 'PHY', 'PAC']);
             hexagon.draw([str, agi, mag, hp, mp, def]);
         }
         fresh ();
